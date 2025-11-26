@@ -1,5 +1,5 @@
 {
-  "name": "queenriam",
+  "name": "ronyskies",
   "version": "1.0.0",
   "description": "whatsappbot",
   "main": "index.js",
@@ -8,7 +8,7 @@
     "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "docker:build": "docker build -t queenriam .",
-    "docker:run": "docker run -e SESSION_ID=$SESSION_ID queenriam"
+    "docker:run": "docker run -e SESSION_ID=$SESSION_ID ronyskies"
   },
   "keywords": [
     "whatsapp-bot"
